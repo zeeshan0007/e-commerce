@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/ContactUs.css">
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <!-- Fontawesome icon -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> -->
+  </head>
+  <body>
+
+    <section id="header">
+      <a href="#"><img width="50px" src="img/logo.png"></a>
+
+      <div>
+          <ul id="navbar">
+              <li><a href="Home.html">Home</a></li>
+              <li><a  href="shop.html">Shop</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li><a href="AboutUs.html">About</a></li>
+              <li><a  href="ContactUs.html">Contact</a></li>
+              <!-- <li class="cart" id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a></li> -->
+              <li id="lg-bag"><span id="menuButton" class="shopping-cart"><span class="sum-prices"><i class="fas fa-shopping-cart shoppingCartButton"></i><h6 id="sum-prices"></h6></span></span></li>
+              <a href="#" id="close"><i class="far fa-times"></i></a>
+          </ul>
+      </div>
+     <div class="navbar-top">
+      <div class="producstOnCart hide">
+        <div class="overlay"></div>
+        <div class="top">
+          <button id="closeButton">
+            <i class="fas fa-times-circle"></i>
+          </button>
+          <h3>Cart</h3>
+        </div>
+        <ul id="buyItems">
+          <h4 class="empty">Your shopping cart is empty</h4>
+        </ul>
+        <button class="btn checkout hidden">Check out</button>
+      </div></div>
+      <div id="mobile">
+        <span id="menuButton" class="shopping-cart"><span class="sum-prices"><i class="fas fa-shopping-cart shoppingCartButton"></i><h6 id="sum-prices"></h6></span></span>
+          <i id="bar" class="fas fa-outdent"></i>
+      </div>
+  </section>
+   <section class="main-section">
+    <div class="product-container">
+      <h3>popular laptops</h3>
+      <div class="products">
+        <div class="product">
+          <div class="product-under">
+            <figure class="product-image">
+              <img
+                src="../img/Laptops/laptop-1.png"
+                alt="popular labtops and computers"
+              />
+              <div class="product-over">
+                <button class="btn btn-small addToCart" data-product-id="1">
+                  <i class="fas fa-cart-plus"></i>
+                  Add to cart
+                </button>
+                <a href="detail_page.html" class="btn btn-small">
+                  More Info
+                </a>
+              </div>
+            </figure>
+            <div class="product-summary">
+              <h4 class="productName">Product 1</h4>
+              <span class="stars"></span>
+              <p>
+                luctus quis et est. Integer pretium purus
+              </p>
+              <h6 class="price">
+                $
+                <span class="priceValue">999</span>
+              </h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <section id="page-header">
+    <h2>#Stayhome</h2>
+    <p>Save more with coupons & up to 70% off!</p>
+</section> -->
+
+    <!-- <section id="cart" class="section-p1">
+        
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody class="products">
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your Coupon Code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+
+            </table>
+            <button class="normal">Proceed To Checkout</button>
+        </div>
+    </section> -->
+
+
+    <footer class="section-p1">
+      <div class="col">
+          <img class="logo" src="img/logo.png" width="100px" alt="">
+          <h4>Contact</h4>
+          <p>Address: <strong>xyz</strong></p>
+          <p>Phone: <strong>xyz</strong></p>
+          <p>Hours: <strong>xyz</strong></p>
+          <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-youtube"></i>
+                  <i class="fab fa-pinterest"></i>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+          <h4>About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & conditions</a>
+          <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My order</a>
+          <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+          <h4>Install App</h4>
+          <p>From App store or Google play</p>
+          <div class="row">
+              <img src="img/pay/app.jpg" width="200px" alt="">
+              <img src="img/pay/play.jpg" width="200px" alt="">
+          </div>
+          <p>Secured Payment gateway</p>
+          <img src="img/pay/payment.jpg" width="300px" alt="">
+      </div>
+      <div class="copyright">
+          <p>© 2022. Zarrar - HTML CSS JAVASCRIPT</p>
+      </div>
+  </footer>
+    
+  <script src="./js/Cart.js"></script>
+  <script src="./js/Home.js"></script>
+  </body>
+</html>
